@@ -1,0 +1,96 @@
+name: learning_app
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: 3.3.3
+
+dependencies:
+  bloc: ^8.1.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_localizations:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  intl: ^0.18.0
+  path_provider: ^2.0.14
+  uuid: ^3.0.7
+  characters: ^1.2.1
+  flutter_colorpicker: ^1.0.3
+  flutter_animate: ^4.3.0
+  image_picker: ^1.0.2
+  permission_handler: ^11.1.0
+  audioplayers: ^5.0.0
+  file_picker: ^6.1.1
+  flutter_math_fork: ^0.7.2
+  flutter_sound: ^9.2.13
+  url_launcher: ^6.2.2
+  equatable: ^2.0.5
+
+dev_dependencies:
+  bloc_test: ^9.1.1
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  very_good_analysis: ^5.0.0+1
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.7
+
+flutter:
+  uses-material-design: true
+  generate: true
+  assets:
+    - assets/
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/inter/Inter-Black.ttf
+          weight: 900
+        - asset: assets/fonts/inter/Inter-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/inter/Inter-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/inter/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/inter/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/inter/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/inter/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/inter/Inter-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/inter/Inter-Thin.ttf
+          weight: 100
+    - family: RobotoSerif
+      fonts:
+        - asset: assets/fonts/Roboto_Serif/static/RobotoSerif-BlackItalic.ttf
+          weight: 900
+        - asset: assets/fonts/Roboto_Serif/static/RobotoSerif-ExtraBoldItalic.ttf
+          weight: 800
+        - asset: assets/fonts/Roboto_Serif/static/RobotoSerif-BoldItalic.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto_Serif/static/RobotoSerif-SemiBoldItalic.ttf
+          weight: 600
+        - asset: assets/fonts/Roboto_Serif/static/RobotoSerif-MediumItalic.ttf
+          weight: 500
+        - asset: assets/fonts/Roboto_Serif/static/RobotoSerif-Italic.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto_Serif/static/RobotoSerif-LightItalic.ttf
+          weight: 300
+        - asset: assets/fonts/Roboto_Serif/static/RobotoSerif-ExtraLightItalic.ttf
+          weight: 200
+        - asset: assets/fonts/Roboto_Serif/static/RobotoSerif-ThinItalic.ttf
+          weight: 100
+    - family: RobotoMono
+      fonts:
+        - asset: assets/fonts/Roboto_Mono/static/RobotoMono-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto_Mono/static/RobotoMono-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Roboto_Mono/static/RobotoMono-Medium.ttf
+          weight: 500
